@@ -73,8 +73,13 @@
       .text-wrapper {
           display: flex;
           justify-content: flex-start;
-          background: rgb(0, 255, 38);
+          background: rgb(246, 255, 0);
           overflow: hidden;
+          position: fixed;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          width: 100%;
       }
 
       .moving-text {
