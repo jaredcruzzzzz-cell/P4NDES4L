@@ -1,0 +1,99 @@
+      * {
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+      }
+
+      body {
+          background-image: url("../Assets/PortfolioBG.jpg");
+          background-repeat: no-repeat;
+          /* background-position: center; */
+          background-size: cover;
+      }
+
+      .megrim-regular {
+          font-family: "Megrim", system-ui;
+          font-weight: 700;
+          font-style: normal;
+      }
+
+      .noto-serif-display {
+          font-family: "Noto Serif Display", serif;
+          font-optical-sizing: auto;
+          font-weight: 400;
+          font-style: normal;
+      }
+
+      .navbar {
+          display: flex;
+          justify-content: space-between;
+          align-items: stretch;
+          background-color: #000;
+          height: 64px;
+          padding: 0 32px;
+      }
+
+      .logo a {
+          display: flex;
+          align-items: center;
+          height: 100%;
+          padding: 0 20px;
+      }
+
+      .logo img {
+          height: 100%;
+          width: auto;
+          display: block;
+      }
+
+      .nav-links {
+          display: flex;
+          list-style: none;
+          height: 100%;
+      }
+
+      .nav-links li {
+          height: 100%;
+      }
+
+      .nav-links a {
+          display: flex;
+          align-items: center;
+          height: 100%;
+          color: #fff;
+          text-decoration: none;
+          font-size: 24px;
+          padding: 0 24px;
+      }
+
+      .nav-links a:hover {
+          background-color: red;
+      }
+
+      .text-wrapper {
+          display: flex;
+          justify-content: flex-start;
+          background: rgb(0, 255, 38);
+          overflow: hidden;
+      }
+
+      .moving-text {
+          font-size: 50px;
+          text-transform: uppercase;
+          color: rgb(0, 0, 0);
+          -webkit-text-stroke-width: 0.1px;
+          white-space: nowrap;
+          padding: 0 0.25em;
+          letter-spacing: 1px;
+          animation: move-rtl 15s linear infinite;
+      }
+
+      @keyframes move-rtl {
+          0% {
+              transform: translateX(0);
+          }
+
+          100% {
+              transform: translateX(-100%);
+          }
+      } 
