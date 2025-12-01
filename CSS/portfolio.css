@@ -68,6 +68,7 @@
 
       .nav-links a:hover {
           background-color: red;
+          border-radius: 8px;
       }
 
       .text-wrapper {
@@ -141,6 +142,7 @@
           display: flex;
           justify-content: center;
           align-items: center;
+          background-color: aliceblue;
       }
 
       .show {
@@ -156,7 +158,7 @@
           text-align: center;
           display: inline-block;
           margin: 10px;
-          margin-bottom: 30px;
+          margin-bottom: 36px;
           background-color: transparent;
           color: white;
           font-size: 20px;
@@ -180,4 +182,5 @@
           max-width: 100%;
           height: auto;
           display: block;
+          margin: 0 auto; 
       }

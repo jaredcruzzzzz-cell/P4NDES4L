@@ -76,6 +76,7 @@
 
       .nav-links a:hover {
           background-color: red;
+          border-radius: 8px;
       }
 
       .text-wrapper {
