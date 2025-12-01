@@ -17,7 +17,7 @@
           background-image: url("../Assets/AboutBG.png");
           background-repeat: no-repeat;
           background-size: cover;
-          filter: brightness(40%) blur(10px);
+          filter: blur(10px);
           z-index: -1;
 
       }
